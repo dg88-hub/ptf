@@ -3,11 +3,21 @@ node_modules/
 
 # Build output
 dist/
+*.tsbuildinfo
 
 # Test artifacts
 playwright-report/
 test-results/
+allure-results/
+allure-report/
+blob-report/
 *.trace.zip
+screenshots/
+
+# Playwright specific
+.playwright/
+playwright/.cache/
+storageState.json
 
 # Logs
 logs/
@@ -21,6 +31,8 @@ npm-debug.log*
 
 # IDE
 .idea/
+.vscode/settings.json
+*.code-workspace
 *.swp
 *.swo
 
@@ -42,15 +54,11 @@ temp/
 # Authentication state (for Playwright)
 .auth/
 
-# Python
+# Python (if using hybrid projects)
 __pycache__/
 *.py[cod]
 *$py.class
 .Python
 *.so
-.Python
 venv/
 ENV/
-
-# Debug
-*.log
