@@ -1,0 +1,5 @@
+[22:58:23.278] info: Setting up GL test environment
+[22:58:23.279] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:58:26.078] info: GL test environment ready
+[22:58:26.079] info: [Transaction date filter] ========== TEST STARTED: Transaction date filter ==========
+[22:58:26.080] info: [Transaction date filter] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

@@ -1,0 +1,5 @@
+[23:05:54.326] info: Setting up GL test environment
+[23:05:54.326] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[23:05:56.869] info: GL test environment ready
+[23:05:56.871] info: [Fund transfer GL entries] ========== TEST STARTED: Fund transfer GL entries ==========
+[23:05:56.872] info: [Fund transfer GL entries] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/openaccount.htm

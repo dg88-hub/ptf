@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5]
+    - generic [ref=e6]:
+      - heading "Welcome to the-internet" [level=1] [ref=e7]
+      - heading "Available Examples" [level=2] [ref=e8]
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "A/B Testing" [ref=e11]:
+            - /url: /abtest
+        - listitem [ref=e12]:
+          - link "Add/Remove Elements" [ref=e13]:
+            - /url: /add_remove_elements/
+        - listitem [ref=e14]:
+          - link "Basic Auth" [ref=e15]:
+            - /url: /basic_auth
+          - text: "(user and pass: admin)"
+        - listitem [ref=e16]:
+          - link "Broken Images" [ref=e17]:
+            - /url: /broken_images
+        - listitem [ref=e18]:
+          - link "Challenging DOM" [ref=e19]:
+            - /url: /challenging_dom
+        - listitem [ref=e20]:
+          - link "Checkboxes" [ref=e21]:
+            - /url: /checkboxes
+        - listitem [ref=e22]:
+          - link "Context Menu" [ref=e23]:
+            - /url: /context_menu
+        - listitem [ref=e24]:
+          - link "Digest Authentication" [ref=e25]:
+            - /url: /digest_auth
+          - text: "(user and pass: admin)"
+        - listitem [ref=e26]:
+          - link "Disappearing Elements" [ref=e27]:
+            - /url: /disappearing_elements
+        - listitem [ref=e28]:
+          - link "Drag and Drop" [ref=e29]:
+            - /url: /drag_and_drop
+        - listitem [ref=e30]:
+          - link "Dropdown" [ref=e31]:
+            - /url: /dropdown
+        - listitem [ref=e32]:
+          - link "Dynamic Content" [ref=e33]:
+            - /url: /dynamic_content
+        - listitem [ref=e34]:
+          - link "Dynamic Controls" [ref=e35]:
+            - /url: /dynamic_controls
+        - listitem [ref=e36]:
+          - link "Dynamic Loading" [ref=e37]:
+            - /url: /dynamic_loading
+        - listitem [ref=e38]:
+          - link "Entry Ad" [ref=e39]:
+            - /url: /entry_ad
+        - listitem [ref=e40]:
+          - link "Exit Intent" [ref=e41]:
+            - /url: /exit_intent
+        - listitem [ref=e42]:
+          - link "File Download" [ref=e43]:
+            - /url: /download
+        - listitem [ref=e44]:
+          - link "File Upload" [ref=e45]:
+            - /url: /upload
+        - listitem [ref=e46]:
+          - link "Floating Menu" [ref=e47]:
+            - /url: /floating_menu
+        - listitem [ref=e48]:
+          - link "Forgot Password" [ref=e49]:
+            - /url: /forgot_password
+        - listitem [ref=e50]:
+          - link "Form Authentication" [ref=e51]:
+            - /url: /login
+        - listitem [ref=e52]:
+          - link "Frames" [ref=e53]:
+            - /url: /frames
+        - listitem [ref=e54]:
+          - link "Geolocation" [ref=e55]:
+            - /url: /geolocation
+        - listitem [ref=e56]:
+          - link "Horizontal Slider" [ref=e57]:
+            - /url: /horizontal_slider
+        - listitem [ref=e58]:
+          - link "Hovers" [ref=e59]:
+            - /url: /hovers
+        - listitem [ref=e60]:
+          - link "Infinite Scroll" [ref=e61]:
+            - /url: /infinite_scroll
+        - listitem [ref=e62]:
+          - link "Inputs" [ref=e63]:
+            - /url: /inputs
+        - listitem [ref=e64]:
+          - link "JQuery UI Menus" [ref=e65]:
+            - /url: /jqueryui/menu
+        - listitem [ref=e66]:
+          - link "JavaScript Alerts" [ref=e67]:
+            - /url: /javascript_alerts
+        - listitem [ref=e68]:
+          - link "JavaScript onload event error" [ref=e69]:
+            - /url: /javascript_error
+        - listitem [ref=e70]:
+          - link "Key Presses" [ref=e71]:
+            - /url: /key_presses
+        - listitem [ref=e72]:
+          - link "Large & Deep DOM" [ref=e73]:
+            - /url: /large
+        - listitem [ref=e74]:
+          - link "Multiple Windows" [ref=e75]:
+            - /url: /windows
+        - listitem [ref=e76]:
+          - link "Nested Frames" [ref=e77]:
+            - /url: /nested_frames
+        - listitem [ref=e78]:
+          - link "Notification Messages" [ref=e79]:
+            - /url: /notification_message
+        - listitem [ref=e80]:
+          - link "Redirect Link" [ref=e81]:
+            - /url: /redirector
+        - listitem [ref=e82]:
+          - link "Secure File Download" [ref=e83]:
+            - /url: /download_secure
+        - listitem [ref=e84]:
+          - link "Shadow DOM" [ref=e85]:
+            - /url: /shadowdom
+        - listitem [ref=e86]:
+          - link "Shifting Content" [ref=e87]:
+            - /url: /shifting_content
+        - listitem [ref=e88]:
+          - link "Slow Resources" [ref=e89]:
+            - /url: /slow
+        - listitem [ref=e90]:
+          - link "Sortable Data Tables" [ref=e91]:
+            - /url: /tables
+        - listitem [ref=e92]:
+          - link "Status Codes" [ref=e93]:
+            - /url: /status_codes
+        - listitem [ref=e94]:
+          - link "Typos" [ref=e95]:
+            - /url: /typos
+        - listitem [ref=e96]:
+          - link "WYSIWYG Editor" [ref=e97]:
+            - /url: /tinymce
+  - generic [ref=e99]:
+    - separator [ref=e100]
+    - generic [ref=e101]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e102]:
+        - /url: http://elementalselenium.com/
+```

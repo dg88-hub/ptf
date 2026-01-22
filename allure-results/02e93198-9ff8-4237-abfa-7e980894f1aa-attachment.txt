@@ -1,0 +1,7 @@
+[22:51:48.822] info: [Performance] Collecting navigation timing
+Navigation Timing:
+  - DNS Lookup: 34ms
+  - TCP Connect: 117ms
+  - TTFB: 39ms
+  - DOM Interactive: 1043ms
+  - Full Load: 1051ms

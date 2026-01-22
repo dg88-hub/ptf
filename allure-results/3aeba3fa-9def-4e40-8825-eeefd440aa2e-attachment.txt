@@ -1,0 +1,2 @@
+[23:00:56.706] info: Setting up GL test environment
+[23:00:56.706] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm

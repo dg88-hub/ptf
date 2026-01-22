@@ -1,0 +1,5 @@
+[22:44:33.797] info: Setting up GL test environment
+[22:44:33.798] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:44:36.543] info: GL test environment ready
+[22:44:36.544] info: [View accounts overview] ========== TEST STARTED: View accounts overview ==========
+[22:44:36.544] info: [View accounts overview] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

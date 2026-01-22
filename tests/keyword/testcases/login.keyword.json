@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Login Test Case",
+    "description": "Verify user can login with valid credentials",
+    "tags": ["smoke", "login"],
+    "steps": [
+      { "keyword": "navigate", "target": "/login" },
+      { "keyword": "waitForVisible", "target": "#username" },
+      { "keyword": "fill", "target": "#username", "value": "tomsmith" },
+      { "keyword": "fill", "target": "#password", "value": "SuperSecretPassword!" },
+      { "keyword": "click", "target": "button[type='submit']" },
+      { "keyword": "waitForUrl", "target": ".*secure.*" },
+      { "keyword": "assertVisible", "target": "a[href='/logout']" }
+    ]
+  },
+  {
+    "name": "Logout Test Case",
+    "description": "Verify user can logout after login",
+    "tags": ["smoke", "logout"],
+    "steps": [
+      { "keyword": "navigate", "target": "/login" },
+      { "keyword": "fill", "target": "#username", "value": "tomsmith" },
+      { "keyword": "fill", "target": "#password", "value": "SuperSecretPassword!" },
+      { "keyword": "click", "target": "button[type='submit']" },
+      { "keyword": "waitForUrl", "target": ".*secure.*" },
+      { "keyword": "click", "target": "a[href='/logout']" },
+      { "keyword": "assertUrl", "expected": "/login" }
+    ]
+  }
+]

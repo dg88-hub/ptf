@@ -1,0 +1,10 @@
+[22:40:18.080] info: [Create customer profile] ========== TEST STARTED: Create customer profile ==========
+[22:40:18.096] info: [Create customer profile] Low Risk Customer:
+[22:40:18.097] info: [Create customer profile]   Name: John Smith
+[22:40:18.099] info: [Create customer profile]   Credit Score: 810
+[22:40:18.099] info: [Create customer profile]   Risk Level: low
+[22:40:18.101] info: [Create customer profile] High Risk Customer:
+[22:40:18.102] info: [Create customer profile]   Name: Jane Doe
+[22:40:18.102] info: [Create customer profile]   Credit Score: 526
+[22:40:18.102] info: [Create customer profile]   Risk Level: high
+[22:40:18.103] info: [Create customer profile] ========== TEST ✓ PASSED: Create customer profile ==========

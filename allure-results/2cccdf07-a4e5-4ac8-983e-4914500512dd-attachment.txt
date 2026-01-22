@@ -1,0 +1,6 @@
+[23:01:47.386] info: [LoginPage] Navigating to login page
+[23:01:47.390] info: [LoginPage] Navigating to: /login
+[23:01:48.556] info: [Username whitespace handling] ========== TEST STARTED: Username whitespace handling ==========
+[23:01:48.556] info: [Username whitespace handling] Step 1: Entering username:   tomsmith  
+[23:01:48.662] info: [Username whitespace handling] Step 2: Entering password: ****
+[23:01:48.881] info: [Username whitespace handling] ========== TEST ✓ PASSED: Username whitespace handling ==========

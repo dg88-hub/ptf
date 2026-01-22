@@ -1,0 +1,11 @@
+[22:51:39.528] info: [KeywordEngine] Executing test: Login Flow
+[22:51:39.544] info: Step 1: navigate: https://the-internet.herokuapp.com/login
+[22:51:41.490] info: Step 2: fill: #username
+[22:51:41.940] info: Step 3: fill: #password
+[22:51:42.196] info: Step 4: click: button[type="submit"]
+[22:51:43.136] info: Step 5: waitForUrl: .*secure.*
+[22:52:13.179] error: [KeywordEngine] Step 5 failed: page.waitForURL: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to ".*secure.*" until "load"
+============================================================
+[22:52:13.182] info: [KeywordEngine] Test FAILED: Login Flow

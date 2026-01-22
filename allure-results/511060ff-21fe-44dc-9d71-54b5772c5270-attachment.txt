@@ -1,0 +1,2 @@
+[22:54:01.053] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:54:03.729] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/openaccount.htm

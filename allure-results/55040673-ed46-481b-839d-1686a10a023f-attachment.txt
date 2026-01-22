@@ -1,0 +1,6 @@
+[23:06:31.341] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
+[23:06:31.347] info: [Create auto policy] Auto Policy Created:
+[23:06:31.347] info: [Create auto policy]   Policy Number: POL-1769054791341-H0JUBE
+[23:06:31.357] info: [Create auto policy]   Coverage Limit: $100,000
+[23:06:31.357] info: [Create auto policy]   Annual Premium: $1200
+[23:06:31.357] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

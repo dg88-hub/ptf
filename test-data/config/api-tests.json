@@ -1,0 +1,14 @@
+{
+  "suiteId": "api-tests",
+  "endpoints": {
+    "users": "/users",
+    "login": "/login",
+    "register": "/register"
+  },
+  "testData": {
+    "defaultUser": {
+      "name": "morpheus",
+      "job": "leader"
+    }
+  }
+}

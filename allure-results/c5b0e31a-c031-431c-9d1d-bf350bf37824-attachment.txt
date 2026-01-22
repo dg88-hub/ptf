@@ -1,0 +1,6 @@
+[23:03:56.705] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
+[23:03:56.711] info: [Create auto policy] Auto Policy Created:
+[23:03:56.711] info: [Create auto policy]   Policy Number: POL-1769054636705-FWMC2H
+[23:03:56.720] info: [Create auto policy]   Coverage Limit: $100,000
+[23:03:56.720] info: [Create auto policy]   Annual Premium: $1200
+[23:03:56.720] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

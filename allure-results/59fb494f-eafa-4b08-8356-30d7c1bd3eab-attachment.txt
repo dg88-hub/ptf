@@ -1,0 +1,6 @@
+[22:02:51.075] info: [TestDataProvider] Loaded 5 test cases from login-scenarios.json
+[22:02:51.076] info: Loaded 5 test cases from external data
+[22:02:53.103] info: [LoginPage] Logging in as: invalid_user
+[22:02:53.113] info: Step 1: Entering username: invalid_user
+[22:02:54.119] info: Step 2: Entering password: ****
+[22:02:56.216] info: Step 3: Clicking login button

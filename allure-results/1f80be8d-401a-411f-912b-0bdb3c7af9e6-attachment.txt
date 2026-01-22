@@ -1,0 +1,2 @@
+[23:02:59.963] info: Setting up AR test environment
+[23:02:59.965] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com

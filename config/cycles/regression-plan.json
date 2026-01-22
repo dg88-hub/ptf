@@ -1,0 +1,9 @@
+{
+  "name": "Regression Cycle",
+  "description": "Full regression suite running all tests",
+  "tags": "not @visual",
+  "browsers": ["chromium", "firefox", "webkit"],
+  "retries": 1,
+  "workers": 4,
+  "timeout": 60000
+}

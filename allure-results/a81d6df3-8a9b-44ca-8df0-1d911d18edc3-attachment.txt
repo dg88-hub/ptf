@@ -1,0 +1,48 @@
+[22:55:15.911] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:17.262] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:17.937] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:18.529] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:19.261] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:19.955] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:20.715] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:21.467] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:22.208] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:22.953] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:23.563] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:24.150] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:24.882] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[22:55:25.454] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+
+============================================================
+PERFORMANCE REPORT: SauceDemo Login Load
+============================================================
+Total Transactions: 7
+Passed:             7
+Failed:             0
+Error Rate:         0.00%
+Throughput:         0.68 ops/sec
+Duration (ms):
+  Min: 1247
+  Max: 2036
+  Avg: 1461
+  p90: 2036
+  p95: 2036
+  p99: 2036
+============================================================
+[22:55:25.627] info: 
+============================================================
+PERFORMANCE REPORT: SauceDemo Login Load
+============================================================
+Total Transactions: 7
+Passed:             7
+Failed:             0
+Error Rate:         0.00%
+Throughput:         0.68 ops/sec
+Duration (ms):
+  Min: 1247
+  Max: 2036
+  Avg: 1461
+  p90: 2036
+  p95: 2036
+  p99: 2036
+============================================================

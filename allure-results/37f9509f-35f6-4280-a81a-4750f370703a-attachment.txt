@@ -1,0 +1,11 @@
+[20:45:21.645] info: [Insurance E2E Journey] ========== TEST STARTED: Insurance E2E Journey ==========
+[20:45:21.645] info: [Insurance E2E Journey] Step 1: Customer Created - Robert Johnson
+[20:45:21.646] info: [Insurance E2E Journey] Step 2: Underwriting Approved - Risk Score: 650
+[20:45:21.646] info: [Insurance E2E Journey] Step 3: Policy Created - POL-1769046321646-YU6PRZ
+[20:45:21.646] info: [Insurance E2E Journey]   Premium: $1140/year
+[20:45:21.646] info: [Insurance E2E Journey] Step 4: Claim Filed - CLM-1769046321646-E4GWBR
+[20:45:21.646] info: [Insurance E2E Journey]   Amount Claimed: $3500
+[20:45:21.646] info: [Insurance E2E Journey] Step 5: Claim Paid - $3200
+[20:45:21.647] info: [Insurance E2E Journey] [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[20:45:24.749] info: [Insurance E2E Journey] Step 6: E2E Journey Completed Successfully!
+[20:45:24.749] info: [Insurance E2E Journey] ========== TEST ✓ PASSED: Insurance E2E Journey ==========

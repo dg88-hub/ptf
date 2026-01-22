@@ -1,0 +1,10 @@
+[23:01:31.134] info: [Premium calculation] ========== TEST STARTED: Premium calculation ==========
+[23:01:31.134] info: [Premium calculation] Premium Comparison:
+[23:01:31.134] info: [Premium calculation]   Low Risk Annual Premium: $550.8
+[23:01:31.135] info: [Premium calculation]     - Base Rate: $800
+[23:01:31.135] info: [Premium calculation]     - Risk Multiplier: 0.77
+[23:01:31.135] info: [Premium calculation]     - Discounts: Multi-Policy
+[23:01:31.135] info: [Premium calculation]   High Risk Annual Premium: $1496
+[23:01:31.135] info: [Premium calculation]     - Base Rate: $800
+[23:01:31.135] info: [Premium calculation]     - Risk Multiplier: 1.87
+[23:01:31.135] info: [Premium calculation] ========== TEST ✓ PASSED: Premium calculation ==========

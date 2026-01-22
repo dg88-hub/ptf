@@ -1,0 +1,173 @@
+# =============================================
+# Azure DevOps Pipeline for PTF Framework
+# =============================================
+# This pipeline runs Playwright tests on Azure DevOps.
+# It supports multiple browsers, test suites, and environments.
+#
+# Features:
+# - Parameterized runs (test suite, environment, browsers)
+# - Cross-browser testing (Chromium, Firefox, WebKit)
+# - npm caching for faster builds
+# - Automatic test result and report publishing
+#
+# Manual Run:
+# 1. Go to Pipelines > Run pipeline
+# 2. Select parameters (testSuite, environment, browsers)
+# 3. Click "Run"
+#
+# @see https://docs.microsoft.com/azure/devops/pipelines
+# =============================================
+
+# =============================================
+# Trigger Configuration
+# =============================================
+# Automatically run on pushes to main or dev1 branches
+# Skip documentation-only changes to save build time
+trigger:
+  branches:
+    include: [main, dev1] # Run on these branches
+  paths:
+    exclude: ['docs/*', '*.md'] # Skip documentation changes
+
+# =============================================
+# Pull Request Trigger
+# =============================================
+# Run on PRs targeting main branch
+pr:
+  branches:
+    include: [main]
+
+# =============================================
+# Pipeline Parameters
+# =============================================
+# These can be selected when running the pipeline manually
+parameters:
+  # Test suite to run
+  - name: testSuite
+    displayName: Test Suite
+    type: string
+    default: 'all'
+    values: [all, smoke, sanity, regression, api]
+
+  # Target environment
+  - name: environment
+    displayName: Environment
+    type: string
+    default: 'sit'
+    values: [sit, fat, uat]
+
+  # Browsers to test
+  - name: browsers
+    displayName: Browsers
+    type: string
+    default: 'chromium'
+    values: [chromium, firefox, webkit, all]
+
+# =============================================
+# Pipeline Variables
+# =============================================
+variables:
+  TEST_ENV: ${{ parameters.environment }} # Pass environment to tests
+  npm_config_cache: $(Pipeline.Workspace)/.npm # npm cache location
+
+# =============================================
+# Agent Pool
+# =============================================
+# Use Microsoft-hosted Ubuntu agent
+pool:
+  vmImage: 'ubuntu-latest'
+
+# =============================================
+# Pipeline Stages
+# =============================================
+stages:
+  - stage: Test
+    jobs:
+      - job: PlaywrightTests
+        # =============================================
+        # Matrix Strategy
+        # =============================================
+        # Run tests in parallel across selected browsers
+        strategy:
+          matrix:
+            # Chromium (always fast and reliable)
+            ${{ if or(eq(parameters.browsers, 'chromium'), eq(parameters.browsers, 'all')) }}:
+              Chromium:
+                browser: 'chromium'
+            # Firefox (for cross-browser coverage)
+            ${{ if or(eq(parameters.browsers, 'firefox'), eq(parameters.browsers, 'all')) }}:
+              Firefox:
+                browser: 'firefox'
+            # WebKit (Safari-like testing)
+            ${{ if or(eq(parameters.browsers, 'webkit'), eq(parameters.browsers, 'all')) }}:
+              WebKit:
+                browser: 'webkit'
+
+        steps:
+          # ---------------------------------------------
+          # Setup: Node.js
+          # ---------------------------------------------
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '20.x'
+            displayName: 'Install Node.js'
+
+          # ---------------------------------------------
+          # Setup: npm Cache
+          # ---------------------------------------------
+          # Cache npm packages to speed up subsequent runs
+          - task: Cache@2
+            inputs:
+              key: 'npm | "$(Agent.OS)" | package-lock.json'
+              path: $(npm_config_cache)
+            displayName: 'Cache npm'
+
+          # ---------------------------------------------
+          # Setup: Dependencies
+          # ---------------------------------------------
+          - script: npm ci
+            displayName: 'Install dependencies'
+
+          # ---------------------------------------------
+          # Setup: Playwright Browsers
+          # ---------------------------------------------
+          # Install only the browser needed for this matrix job
+          - script: npx playwright install --with-deps $(browser)
+            displayName: 'Install Playwright'
+
+          # ---------------------------------------------
+          # Run: Tests
+          # ---------------------------------------------
+          # Select tests based on testSuite parameter
+          - script: |
+              if [ "${{ parameters.testSuite }}" = "smoke" ]; then
+                npx playwright test --grep @smoke --project=$(browser)
+              elif [ "${{ parameters.testSuite }}" = "api" ]; then
+                npx playwright test tests/api --project=$(browser)
+              else
+                npx playwright test --project=$(browser)
+              fi
+            displayName: 'Run Tests'
+            env:
+              TEST_ENV: $(TEST_ENV) # Target environment
+              CI: true # CI mode optimizations
+
+          # ---------------------------------------------
+          # Publish: Test Results
+          # ---------------------------------------------
+          # Publish JUnit results to Azure DevOps test tab
+          - task: PublishTestResults@2
+            condition: always() # Run even if tests fail
+            inputs:
+              testResultsFiles: 'test-results/junit.xml'
+              testRunTitle: 'Playwright $(browser)'
+
+          # ---------------------------------------------
+          # Publish: HTML Report
+          # ---------------------------------------------
+          # Upload Playwright HTML report as pipeline artifact
+          - task: PublishPipelineArtifact@1
+            condition: always()
+            inputs:
+              targetPath: 'playwright-report'
+              artifact: 'playwright-report-$(browser)'

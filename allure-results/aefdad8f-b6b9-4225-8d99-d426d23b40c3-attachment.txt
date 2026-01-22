@@ -1,0 +1,6 @@
+[21:55:25.901] info: [LoginPage] Navigating to login page
+[21:55:25.912] info: [LoginPage] Navigating to: /login
+[21:55:27.028] info: [Login with empty credentials] ========== TEST STARTED: Login with empty credentials ==========
+[21:55:27.029] info: [Login with empty credentials] Step 3: Clicking login button
+[21:55:27.598] info: [Login with empty credentials] [LoginPage] Verifying login failure
+[21:55:28.455] info: [Login with empty credentials] ========== TEST ✓ PASSED: Login with empty credentials ==========

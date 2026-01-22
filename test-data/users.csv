@@ -1,0 +1,6 @@
+id,email,firstName,lastName,role,password
+1,user1@test.com,John,Doe,admin,Password123!
+2,user2@test.com,Jane,Smith,user,Password123!
+3,user3@test.com,Bob,Wilson,user,Password123!
+4,user4@test.com,Alice,Brown,manager,Password123!
+5,user5@test.com,Charlie,Davis,user,Password123!

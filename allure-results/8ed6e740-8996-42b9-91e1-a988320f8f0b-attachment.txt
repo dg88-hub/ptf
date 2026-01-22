@@ -1,0 +1,10 @@
+[21:55:18.826] info: [LoginPage] Navigating to login page
+[21:55:18.827] info: [LoginPage] Navigating to: /login
+[21:55:20.424] info: [Logout after login] ========== TEST STARTED: Logout after login ==========
+[21:55:20.426] info: [Logout after login] [LoginPage] Logging in as: tomsmith
+[21:55:20.427] info: [Logout after login] Step 1: Entering username: tomsmith
+[21:55:20.471] info: [Logout after login] Step 2: Entering password: ****
+[21:55:20.516] info: [Logout after login] Step 3: Clicking login button
+[21:55:21.353] info: [Logout after login] [LoginPage] Logging out
+[21:55:21.638] info: [Logout after login] [LoginPage] Verifying on login page
+[21:55:21.681] info: [Logout after login] ========== TEST ✓ PASSED: Logout after login ==========

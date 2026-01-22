@@ -1,0 +1,11 @@
+[23:01:31.499] info: [Underwriting evaluation] ========== TEST STARTED: Underwriting evaluation ==========
+[23:01:31.500] info: [Underwriting evaluation] Underwriting Results:
+[23:01:31.500] info: [Underwriting evaluation] Good Risk Customer:
+[23:01:31.500] info: [Underwriting evaluation]   Decision: approved
+[23:01:31.500] info: [Underwriting evaluation]   Risk Score: 700
+[23:01:31.500] info: [Underwriting evaluation]   Premium: $552.33
+[23:01:31.500] info: [Underwriting evaluation] Poor Risk Customer:
+[23:01:31.500] info: [Underwriting evaluation]   Decision: declined
+[23:01:31.501] info: [Underwriting evaluation]   Risk Score: 150
+[23:01:31.501] info: [Underwriting evaluation]   Conditions: None
+[23:01:31.501] info: [Underwriting evaluation] ========== TEST ✓ PASSED: Underwriting evaluation ==========

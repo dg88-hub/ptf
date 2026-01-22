@@ -1,0 +1,4 @@
+[23:02:04.889] info: [A11y] Running accessibility check
+[23:02:10.874] warn: [A11y] Found 1 accessibility violations
+[23:02:10.875] warn:   - [SERIOUS] color-contrast: Elements must meet minimum color contrast ratio thresholds (45 elements)
+Found 1 serious/critical a11y issues

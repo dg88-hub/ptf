@@ -1,0 +1,5 @@
+[23:02:17.695] info: [KeywordEngine] Executing test: Variable Test
+[23:02:17.697] info: Step 1: navigate: https://the-internet.herokuapp.com/login
+[23:02:18.487] info: Step 2: fill: #username
+[23:02:18.582] info: Step 3: storeValue: #username
+[23:02:18.598] info: [KeywordEngine] Test PASSED: Variable Test

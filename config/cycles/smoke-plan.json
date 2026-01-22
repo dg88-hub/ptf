@@ -1,0 +1,9 @@
+{
+  "name": "Smoke Cycle",
+  "description": "Quick check of critical paths (Login, Checkout)",
+  "tags": "@smoke",
+  "browsers": ["chromium"],
+  "retries": 0,
+  "workers": 2,
+  "timeout": 30000
+}

@@ -1,0 +1,2 @@
+[22:40:07.313] info: [Claim denial] ========== TEST STARTED: Claim denial ==========
+[22:40:07.315] info: [Claim denial] ========== TEST ✓ PASSED: Claim denial ==========

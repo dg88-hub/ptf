@@ -1,0 +1,5 @@
+[23:05:01.782] info: Setting up AP test environment
+[23:05:01.785] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[23:05:04.430] info: AP test environment ready
+[23:05:04.432] info: [Multiple vendor payments] ========== TEST STARTED: Multiple vendor payments ==========
+[23:05:04.433] info: [Multiple vendor payments] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/billpay.htm

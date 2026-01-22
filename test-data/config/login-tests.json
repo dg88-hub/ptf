@@ -1,0 +1,34 @@
+{
+  "suiteId": "login-tests",
+  "urls": {
+    "login": "/login",
+    "dashboard": "/secure",
+    "logout": "/logout"
+  },
+  "credentials": {
+    "default": {
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!"
+    },
+    "invalid": {
+      "username": "invalid_user",
+      "password": "wrong_password"
+    },
+    "admin": {
+      "username": "admin",
+      "password": "admin123"
+    }
+  },
+  "endpoints": {
+    "users": "/users",
+    "login": "/login",
+    "register": "/register"
+  },
+  "testData": {
+    "expectedLoginSuccessMessage": "You logged into a secure area!",
+    "expectedInvalidUserMessage": "Your username is invalid!",
+    "expectedInvalidPasswordMessage": "Your password is invalid!",
+    "loginPageTitle": "Login Page",
+    "maxLoginAttempts": 3
+  }
+}

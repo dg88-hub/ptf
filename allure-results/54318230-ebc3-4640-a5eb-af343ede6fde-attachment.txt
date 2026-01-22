@@ -1,0 +1,15 @@
+[22:59:41.054] info: Setting up AP test environment
+[22:59:41.055] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:59:44.777] info: AP test environment ready
+[22:59:44.781] info: [Bill pay accessibility] ========== TEST STARTED: Bill pay accessibility ==========
+[22:59:44.781] info: [Bill pay accessibility] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/billpay.htm
+[22:59:45.588] info: [Bill pay accessibility] [A11y] Running accessibility check
+[22:59:46.919] warn: [Bill pay accessibility] [A11y] Found 8 accessibility violations
+[22:59:46.919] warn: [Bill pay accessibility]   - [SERIOUS] color-contrast: Elements must meet minimum color contrast ratio thresholds (13 elements)
+[22:59:46.920] warn: [Bill pay accessibility]   - [SERIOUS] html-has-lang: <html> element must have a lang attribute (1 elements)
+[22:59:46.921] warn: [Bill pay accessibility]   - [CRITICAL] image-alt: Images must have alternative text (1 elements)
+[22:59:46.922] warn: [Bill pay accessibility]   - [CRITICAL] label: Form elements must have labels (9 elements)
+[22:59:46.922] warn: [Bill pay accessibility]   - [MODERATE] landmark-one-main: Document should have one main landmark (1 elements)
+[22:59:46.922] warn: [Bill pay accessibility]   - [SERIOUS] link-name: Links must have discernible text (1 elements)
+[22:59:46.922] warn: [Bill pay accessibility]   - [MODERATE] region: All page content should be contained by landmarks (25 elements)
+[22:59:46.922] warn: [Bill pay accessibility]   - [CRITICAL] select-name: Select element must have an accessible name (1 elements)

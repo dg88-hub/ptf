@@ -1,0 +1,88 @@
+{
+  /**
+   * TypeScript Configuration for PTF Framework
+   * ==========================================
+   * This file configures the TypeScript compiler options for the project.
+   *
+   * Key Settings:
+   * - target: ES2022 for modern JavaScript features
+   * - strict: Enables strict type checking for better code quality
+   * - paths: Aliases for cleaner imports (@config/*, @core/*, etc.)
+   *
+   * @see https://www.typescriptlang.org/tsconfig
+   */
+  "compilerOptions": {
+    // ---------------------
+    // Language & Output
+    // ---------------------
+    "target": "ES2022", // JavaScript version for output
+    "module": "commonjs", // Module system (Node.js compatible)
+    "lib": ["ES2022", "DOM"], // Include DOM types for browser APIs
+    "outDir": "./dist", // Compiled output directory
+    "rootDir": ".", // Source root directory
+
+    // ---------------------
+    // Strict Type Checking
+    // ---------------------
+    "strict": true, // Enable all strict type checks
+    "strictNullChecks": true, // Null/undefined checks
+    "strictPropertyInitialization": true, // Class property initialization
+    "noImplicitReturns": true, // Require return statements
+    "noImplicitAny": false, // Allow implicit 'any' (relaxed for testing)
+    "noUnusedLocals": false, // Allow unused variables (for debugging)
+    "noUnusedParameters": false, // Allow unused parameters
+
+    // ---------------------
+    // Module Resolution
+    // ---------------------
+    "esModuleInterop": true, // Better CommonJS/ESM interop
+    "allowSyntheticDefaultImports": true, // Allow default imports
+    "moduleResolution": "node", // Node.js module resolution
+    "resolveJsonModule": true, // Import JSON files directly
+
+    // ---------------------
+    // Build Settings
+    // ---------------------
+    "skipLibCheck": true, // Skip type checking of .d.ts files (faster)
+    "forceConsistentCasingInFileNames": true, // Prevent casing issues across OS
+    "declaration": true, // Generate .d.ts declaration files
+    "declarationMap": true, // Generate declaration source maps
+    "sourceMap": true, // Generate source maps for debugging
+
+    // ---------------------
+    // Path Aliases
+    // ---------------------
+    // Use these aliases for cleaner imports:
+    //   import { config } from '@config/index';
+    //   import { BasePage } from '@core/BasePage';
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["src/config/*"], // Configuration modules
+      "@core/*": ["src/core/*"], // Core framework classes
+      "@pages/*": ["src/pages/*"], // Page Object Models
+      "@api/*": ["src/api/*"], // API testing components
+      "@database/*": ["src/database/*"], // Database clients
+      "@utils/*": ["src/utils/*"], // Utility modules
+      "@keywords/*": ["src/keywords/*"], // Keyword-driven engine
+      "@types/*": ["src/types/*"], // Type definitions
+      "@test-data/*": ["test-data/*"] // Test data files
+    }
+  },
+
+  // Files to include in compilation
+  "include": [
+    "src/**/*", // All source files
+    "tests/**/*", // All test files
+    "scripts/**/*", // Script files
+    "playwright.config.ts", // Playwright configuration
+    "vitest.config.ts" // Vitest configuration
+  ],
+
+  // Files to exclude from compilation
+  "exclude": [
+    "node_modules", // Dependencies
+    "dist", // Build output
+    "playwright-report", // Test reports
+    "test-results" // Test artifacts
+  ]
+}

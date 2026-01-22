@@ -1,0 +1,6 @@
+[22:40:03.466] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
+[22:40:03.481] info: [Create auto policy] Auto Policy Created:
+[22:40:03.481] info: [Create auto policy]   Policy Number: POL-1769053203467-8J2MEV
+[22:40:03.502] info: [Create auto policy]   Coverage Limit: $100,000
+[22:40:03.503] info: [Create auto policy]   Annual Premium: $1200
+[22:40:03.503] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

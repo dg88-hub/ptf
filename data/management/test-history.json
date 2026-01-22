@@ -1,0 +1,26 @@
+[
+  {
+    "id": "run-1769048964076",
+    "timestamp": "2026-01-22T02:29:24.076Z",
+    "cycleName": "Ad-hoc Run",
+    "duration": 38054,
+    "total": 18,
+    "passed": 7,
+    "failed": 8,
+    "skipped": 2,
+    "status": "failed",
+    "browser": "Multi"
+  },
+  {
+    "id": "run-1769048993776",
+    "timestamp": "2026-01-22T02:29:53.776Z",
+    "cycleName": "Ad-hoc Run",
+    "duration": 34375,
+    "total": 84,
+    "passed": 0,
+    "failed": 84,
+    "skipped": 0,
+    "status": "failed",
+    "browser": "Multi"
+  }
+]

@@ -1,0 +1,60 @@
+[22:57:24.586] info: [Performance] Collecting Web Vitals
+[22:57:24.594] info: [Performance] Collecting navigation timing
+[22:57:24.609] info: 
+Performance Report
+==================
+URL: https://the-internet.herokuapp.com/
+
+Core Web Vitals:
+  LCP: N/A ms ✗
+  FID: N/A ms ✗
+  CLS: N/A ✗
+  FCP: 508 ms
+  TTFB: 40 ms
+
+Navigation Timing:
+  DNS Lookup: 1 ms
+  TCP Connect: 124 ms
+  TTFB: 40 ms
+  DOM Interactive: 500 ms
+  DOM Content Loaded: 501 ms
+  Full Load: 501 ms
+
+Page Weight: 1079.4 KB
+
+Slowest Resources:
+  - https://the-internet.herokuapp.com/js/vendor/jquer: 303ms
+  - https://the-internet.herokuapp.com/css/app.css: 280ms
+  - https://the-internet.herokuapp.com/js/vendor/jquer: 229ms
+  - https://the-internet.herokuapp.com/img/forkme_righ: 189ms
+  - https://the-internet.herokuapp.com/css/font-awesom: 184ms
+
+
+Performance Report
+==================
+URL: https://the-internet.herokuapp.com/
+
+Core Web Vitals:
+  LCP: N/A ms ✗
+  FID: N/A ms ✗
+  CLS: N/A ✗
+  FCP: 508 ms
+  TTFB: 40 ms
+
+Navigation Timing:
+  DNS Lookup: 1 ms
+  TCP Connect: 124 ms
+  TTFB: 40 ms
+  DOM Interactive: 500 ms
+  DOM Content Loaded: 501 ms
+  Full Load: 501 ms
+
+Page Weight: 1079.4 KB
+
+Slowest Resources:
+  - https://the-internet.herokuapp.com/js/vendor/jquer: 303ms
+  - https://the-internet.herokuapp.com/css/app.css: 280ms
+  - https://the-internet.herokuapp.com/js/vendor/jquer: 229ms
+  - https://the-internet.herokuapp.com/img/forkme_righ: 189ms
+  - https://the-internet.herokuapp.com/css/font-awesom: 184ms
+

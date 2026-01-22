@@ -1,0 +1,6 @@
+[22:39:54.277] info: [Submit claim] ========== TEST STARTED: Submit claim ==========
+[22:39:54.284] info: [Submit claim] Claim Submitted:
+[22:39:54.284] info: [Submit claim]   Claim Number: CLM-1769053194277-Q1G7HS
+[22:39:54.284] info: [Submit claim]   Type: collision
+[22:39:54.302] info: [Submit claim]   Amount Claimed: $5,000
+[22:39:54.303] info: [Submit claim] ========== TEST ✓ PASSED: Submit claim ==========

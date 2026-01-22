@@ -1,0 +1,51 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Bad gateway Error code 502" [level=1] [ref=e5]:
+      - generic [ref=e6]: Bad gateway
+      - text: Error code 502
+    - generic [ref=e7]:
+      - text: Visit
+      - link "cloudflare.com" [ref=e8]:
+        - /url: https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=parabank.parasoft.com
+      - text: for more information.
+    - generic [ref=e9]: 2026-01-22 04:00:07 UTC
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e15]: You
+      - heading "Browser" [level=3] [ref=e16]
+      - text: Working
+    - generic [ref=e17]:
+      - generic:
+        - link:
+          - /url: https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=parabank.parasoft.com
+      - generic [ref=e19]: Toronto
+      - heading "Cloudflare" [level=3] [ref=e20]:
+        - link "Cloudflare" [ref=e21]:
+          - /url: https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=parabank.parasoft.com
+      - text: Working
+    - generic [ref=e22]:
+      - generic [ref=e24]: parabank.parasoft.com
+      - heading "Host" [level=3] [ref=e25]
+      - text: Error
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - heading "What happened?" [level=2] [ref=e29]
+      - paragraph [ref=e30]: The web server reported a bad gateway error.
+    - generic [ref=e31]:
+      - heading "What can I do?" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Please try again in a few minutes.
+  - paragraph [ref=e35]:
+    - generic [ref=e36]:
+      - text: "Cloudflare Ray ID:"
+      - strong [ref=e37]: 9c1c247b9e4faa71
+    - generic [ref=e38]:
+      - text: "Your IP:"
+      - button "Click to reveal" [ref=e39] [cursor=pointer]
+    - generic [ref=e40]:
+      - text: Performance & security by
+      - link "Cloudflare" [ref=e41]:
+        - /url: https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=parabank.parasoft.com
+```

@@ -1,0 +1,75 @@
+# =============================================
+# Docker Compose for PTF Framework
+# =============================================
+# Run Playwright tests in isolated Docker containers.
+# This ensures consistent execution across different environments.
+#
+# Usage:
+#   docker-compose up playwright-tests          # Run all tests
+#   docker-compose up smoke-tests               # Run smoke tests only
+#   docker-compose up api-tests                 # Run API tests only
+#
+# With parameters:
+#   TEST_ENV=uat docker-compose up playwright-tests
+#   TEST_ARGS="--grep @critical" docker-compose up playwright-tests
+#
+# Build image:
+#   docker-compose build
+#
+# @see Dockerfile for container configuration
+# =============================================
+
+version: '3.8'
+
+services:
+  # =============================================
+  # Full Test Suite
+  # =============================================
+  # Runs all Playwright tests
+  # Reports are mounted to host for viewing
+  playwright-tests:
+    build:
+      context: .. # Build from project root
+      dockerfile: docker/Dockerfile # Use this Dockerfile
+    environment:
+      - TEST_ENV=${TEST_ENV:-sit} # Target environment (default: sit)
+      - CI=true # CI mode enables optimizations
+    volumes:
+      # Mount reports to host for easy access
+      - ../playwright-report:/app/playwright-report
+      - ../test-results:/app/test-results
+    command: npx playwright test ${TEST_ARGS:-} # Allow passing extra args
+
+  # =============================================
+  # Smoke Tests Only
+  # =============================================
+  # Quick verification tests for CI pipelines
+  # Runs ~5-10 tests in under a minute
+  smoke-tests:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - TEST_ENV=${TEST_ENV:-sit}
+      - CI=true
+    volumes:
+      - ../playwright-report:/app/playwright-report
+      - ../test-results:/app/test-results
+    command: npx playwright test --grep @smoke # Only tests tagged @smoke
+
+  # =============================================
+  # API Tests Only
+  # =============================================
+  # Backend API validation tests
+  # Faster than UI tests, no browser needed
+  api-tests:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      - TEST_ENV=${TEST_ENV:-sit}
+      - CI=true
+    volumes:
+      - ../playwright-report:/app/playwright-report
+      - ../test-results:/app/test-results
+    command: npx playwright test tests/api # Only API test directory

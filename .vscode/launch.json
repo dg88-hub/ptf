@@ -1,0 +1,72 @@
+{
+  // =============================================
+  // VS Code Launch Configurations for PTF
+  // =============================================
+  // These configurations enable debugging Playwright tests from VS Code.
+  //
+  // Usage:
+  // 1. Open the Debug panel (Ctrl+Shift+D / Cmd+Shift+D)
+  // 2. Select a configuration from the dropdown
+  // 3. Press F5 or click the green play button
+  //
+  // The Playwright Inspector will open allowing step-by-step debugging.
+  // =============================================
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Debug all tests with Playwright Inspector
+      "name": "Debug Playwright Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["playwright", "test", "--debug"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      // Debug only the currently open test file
+      // Useful when focusing on a specific test
+      "name": "Debug Current Test File",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["playwright", "test", "${relativeFile}", "--debug"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      // Debug smoke tests only
+      // Quick debugging of critical path tests
+      "name": "Debug Smoke Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["playwright", "test", "--grep", "@smoke", "--debug"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      // Debug API tests only
+      // Useful when working on API testing
+      "name": "Debug API Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["playwright", "test", "tests/api", "--debug"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      // Run tests in headed mode (visible browser)
+      // Useful for visually inspecting test execution
+      "name": "Run Tests Headed",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["playwright", "test", "--headed"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

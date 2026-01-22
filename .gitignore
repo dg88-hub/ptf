@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test artifacts
+playwright-report/
+test-results/
+*.trace.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# TypeDoc output
+docs/api/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Authentication state (for Playwright)
+.auth/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.Python
+venv/
+ENV/
+
+# Debug
+*.log

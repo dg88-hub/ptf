@@ -1,0 +1,159 @@
+{
+  // =============================================
+  // VS Code Settings for PTF Framework
+  // =============================================
+  // These settings configure VS Code for optimal development experience.
+  // They are shared across the team via version control.
+  //
+  // To override locally, create .vscode/settings.local.json (gitignored)
+  // =============================================
+
+  // ---------------------
+  // Editor: Formatting
+  // ---------------------
+  "editor.formatOnSave": true, // Auto-format on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Use Prettier for formatting
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit", // Fix ESLint issues on save
+    "source.organizeImports": "explicit" // Sort imports on save
+  },
+
+  // ---------------------
+  // TypeScript Settings
+  // ---------------------
+  "typescript.preferences.importModuleSpecifier": "relative", // Use relative imports
+  "typescript.updateImportsOnFileMove.enabled": "always", // Update imports on file move
+  "typescript.tsdk": "node_modules/typescript/lib", // Use project's TypeScript
+
+  // ---------------------
+  // ESLint Settings
+  // ---------------------
+  "eslint.validate": ["typescript"], // Validate TypeScript files
+
+  // ---------------------
+  // File Display
+  // ---------------------
+  "files.exclude": {
+    "node_modules": true, // Hide node_modules
+    "dist": true, // Hide build output
+    "playwright-report": false, // Show test reports
+    "test-results": false // Show test results
+  },
+
+  // ---------------------
+  // Search Settings
+  // ---------------------
+  "search.exclude": {
+    "node_modules": true, // Don't search dependencies
+    "dist": true, // Don't search build output
+    "playwright-report": true, // Don't search reports
+    "test-results": true // Don't search artifacts
+  },
+
+  // ---------------------
+  // Playwright Extension
+  // ---------------------
+  "playwright.showTrace": true, // Show trace viewer button
+
+  // ---------------------
+  // Testing Settings
+  // ---------------------
+  "testing.automaticallyOpenPeekView": "failureInVisibleDocument", // Show failures inline
+
+  // ---------------------
+  // Language-Specific Settings
+  // ---------------------
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettier for TS files
+    "editor.tabSize": 2 // 2-space indentation
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Prettier for JSON
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on" // Wrap long lines in markdown
+  },
+
+  // ---------------------
+  // Spell Check Dictionary
+  // ---------------------
+  // Words specific to this project that cSpell should not flag
+  "cSpell.words": [
+    "assertchecked",
+    "assertcontainstext",
+    "assertcount",
+    "assertdisabled",
+    "assertenabled",
+    "asserthidden",
+    "asserttext",
+    "asserttitle",
+    "assertunchecked",
+    "asserturl",
+    "assertvalue",
+    "assertvisible",
+    "cityslicka",
+    "domcontentloaded",
+    "doubleclick",
+    "elementscreenshot",
+    "elif",
+    "esac",
+    "executescript",
+    "goback",
+    "goforward",
+    "networkidle",
+    "oracledb",
+    "pycache",
+    "reqres",
+    "scrollto",
+    "scrolltobottom",
+    "scrolltotop",
+    "setvar",
+    "storeattribute",
+    "storevalue",
+    "sysdate",
+    "tomsmith",
+    "venv",
+    "waitforhidden",
+    "waitforloadstate",
+    "waitforurl",
+    "waitforvisible",
+    "Millis",
+    "jsonplaceholder",
+    "testdb",
+    "testuser",
+    "sftpuser",
+    "wrongpassword",
+    "slowmo",
+    "oneline",
+    "viewports",
+    "herokuapp",
+    "uuidv",
+    "mailparser",
+    "seqno",
+    "defval",
+    "TTFB",
+    "ttfb",
+    "nvmrc",
+    "peaceiris",
+    "ERESOLVE",
+    "typicode",
+    "taskkill",
+    "pkill",
+    "ECONNREFUSED",
+    "yourpassword",
+    "labelledby",
+    "WCAG",
+    "parabank",
+    "saucedemo",
+    "lohi",
+    "hilo",
+    "Onesie",
+    "dblclick",
+    "billpay",
+    "codegen",
+    "timedout",
+    "testpassword",
+    "sftppassword",
+    "imap"
+  ]
+}

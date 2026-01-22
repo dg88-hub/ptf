@@ -1,0 +1,52 @@
+[23:04:41.490] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:42.117] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:42.753] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:43.043] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:43.772] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:44.096] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:44.767] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:45.084] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:45.965] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:46.751] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:47.416] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:47.897] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:48.562] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:49.098] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:49.798] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:50.241] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:50.986] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+[23:04:51.837] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+
+============================================================
+PERFORMANCE REPORT: SauceDemo Login Load
+============================================================
+Total Transactions: 9
+Passed:             9
+Failed:             0
+Error Rate:         0.00%
+Throughput:         0.82 ops/sec
+Duration (ms):
+  Min: 890
+  Max: 1509
+  Avg: 1204
+  p90: 1509
+  p95: 1509
+  p99: 1509
+============================================================
+[23:04:51.997] info: 
+============================================================
+PERFORMANCE REPORT: SauceDemo Login Load
+============================================================
+Total Transactions: 9
+Passed:             9
+Failed:             0
+Error Rate:         0.00%
+Throughput:         0.82 ops/sec
+Duration (ms):
+  Min: 890
+  Max: 1509
+  Avg: 1204
+  p90: 1509
+  p95: 1509
+  p99: 1509
+============================================================

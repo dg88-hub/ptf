@@ -1,0 +1,6 @@
+[20:45:22.099] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
+[20:45:22.105] info: [Create auto policy] Auto Policy Created:
+[20:45:22.105] info: [Create auto policy]   Policy Number: POL-1769046322099-XIU3UO
+[20:45:22.117] info: [Create auto policy]   Coverage Limit: $100,000
+[20:45:22.117] info: [Create auto policy]   Annual Premium: $1200
+[20:45:22.117] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

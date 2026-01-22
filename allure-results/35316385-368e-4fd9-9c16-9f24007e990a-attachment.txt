@@ -1,0 +1,9 @@
+[22:53:52.935] info: Setting up GL test environment
+[22:53:52.937] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:53:55.995] info: GL test environment ready
+[22:53:55.996] info: [GL summary report generation] ========== TEST STARTED: GL summary report generation ==========
+[22:53:55.997] info: [GL summary report generation] Standard chart of accounts has 18 accounts
+[22:53:56.001] info: [GL summary report generation] Journal Entry JE-54035997:
+[22:53:56.001] info: [GL summary report generation]   6100-00 Office Supplies: Debit $250, Credit $0
+[22:53:56.001] info: [GL summary report generation]   1000-00 Cash: Debit $0, Credit $250
+[22:53:56.001] info: [GL summary report generation] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

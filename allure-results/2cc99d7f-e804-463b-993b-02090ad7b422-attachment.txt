@@ -1,0 +1,6 @@
+[22:55:29.253] info: Setting up AP test environment
+[22:55:29.254] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:55:33.017] info: AP test environment ready
+[22:55:33.017] info: [Bill pay form validation] ========== TEST STARTED: Bill pay form validation ==========
+[22:55:33.018] info: [Bill pay form validation] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/billpay.htm
+[22:55:34.037] info: [Bill pay form validation] ========== TEST ✓ PASSED: Bill pay form validation ==========

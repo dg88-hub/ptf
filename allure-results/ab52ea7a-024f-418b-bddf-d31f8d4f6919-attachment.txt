@@ -1,0 +1,5 @@
+[21:55:30.940] info: [LoginPage] Navigating to login page
+[21:55:30.945] info: [LoginPage] Navigating to: /login
+[21:55:32.407] info: [Verify login form elements] ========== TEST STARTED: Verify login form elements ==========
+[21:55:32.408] info: [Verify login form elements] [LoginPage] Verifying on login page
+[21:55:32.823] info: [Verify login form elements] ========== TEST ✓ PASSED: Verify login form elements ==========

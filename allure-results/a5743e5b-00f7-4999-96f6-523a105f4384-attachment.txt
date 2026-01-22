@@ -1,0 +1,9 @@
+[22:58:46.943] info: [LoginPage] Navigating to login page
+[22:58:46.943] info: [LoginPage] Navigating to: /login
+[22:58:47.590] info: [Login with valid credentials] ========== TEST STARTED: Login with valid credentials ==========
+[22:58:47.590] info: [Login with valid credentials] [LoginPage] Logging in as: tomsmith
+[22:58:47.591] info: [Login with valid credentials] Step 1: Entering username: tomsmith
+[22:58:47.629] info: [Login with valid credentials] Step 2: Entering password: ****
+[22:58:47.689] info: [Login with valid credentials] Step 3: Clicking login button
+[22:58:48.441] info: [Login with valid credentials] [LoginPage] Verifying login success
+[22:58:48.655] info: [Login with valid credentials] ========== TEST ✓ PASSED: Login with valid credentials ==========

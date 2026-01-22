@@ -1,0 +1,5 @@
+[22:35:04.238] info: Setting up GL test environment
+[22:35:04.240] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[22:35:13.463] info: GL test environment ready
+[22:35:13.472] info: [View transaction history] ========== TEST STARTED: View transaction history ==========
+[22:35:13.484] info: [View transaction history] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

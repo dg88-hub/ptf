@@ -1,0 +1,5 @@
+[23:04:59.900] info: Setting up AP test environment
+[23:04:59.913] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
+[23:05:04.039] info: AP test environment ready
+[23:05:04.040] info: [Complete bill payment to vendor] ========== TEST STARTED: Complete bill payment to vendor ==========
+[23:05:04.041] info: [Complete bill payment to vendor] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

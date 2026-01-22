@@ -1,0 +1,4 @@
+Testing against env: "standard_user"
+[22:26:47.569] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com
+Captured Order ID: ORD-999-888
+Scheduled follow-up for Order ORD-999-888 on 2026-01-28

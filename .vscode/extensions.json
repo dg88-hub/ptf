@@ -1,0 +1,41 @@
+{
+  // =============================================
+  // Recommended VS Code Extensions for PTF
+  // =============================================
+  // VS Code will prompt users to install these when opening the project.
+  //
+  // To install all at once:
+  // 1. Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
+  // 2. Type "Extensions: Show Recommended Extensions"
+  // 3. Click "Install Workspace Recommended Extensions"
+  // =============================================
+
+  "recommendations": [
+    // ---------------------
+    // Core Development
+    // ---------------------
+    "ms-playwright.playwright", // Playwright Test extension - run/debug tests
+    "dbaeumer.vscode-eslint", // ESLint - code linting and fixes
+    "esbenp.prettier-vscode", // Prettier - code formatting
+    "ms-vscode.vscode-typescript-next", // TypeScript - latest language features
+
+    // ---------------------
+    // Productivity
+    // ---------------------
+    "usernamehw.errorlens", // Error Lens - show errors inline
+    "streetsidesoftware.code-spell-checker", // cSpell - catch typos in code
+    "christian-kohler.path-intellisense", // Path autocomplete for imports
+    "eamodio.gitlens", // GitLens - enhanced Git features
+
+    // ---------------------
+    // Documentation
+    // ---------------------
+    "yzhang.markdown-all-in-one", // Markdown - preview and shortcuts
+    "gruntfuggly.todo-tree", // TODO Tree - find TODO/FIXME comments
+
+    // ---------------------
+    // Optional (CSS)
+    // ---------------------
+    "bradlc.vscode-tailwindcss" // Tailwind CSS - if using Tailwind
+  ]
+}

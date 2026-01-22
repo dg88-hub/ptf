@@ -1,0 +1,155 @@
+/**
+ * =============================================
+ * Jenkins Pipeline for PTF Framework
+ * =============================================
+ * This Jenkinsfile defines a declarative pipeline for running
+ * Playwright tests in Jenkins CI/CD.
+ *
+ * Features:
+ * - Docker-based execution (consistent environment)
+ * - Parameterized builds (test suite, environment, browser)
+ * - HTML report publishing
+ * - JUnit test result integration
+ *
+ * Prerequisites:
+ * - Docker plugin installed
+ * - HTML Publisher plugin installed
+ * - JUnit plugin installed
+ *
+ * Usage:
+ * 1. Create a new Pipeline job in Jenkins
+ * 2. Point it to this Jenkinsfile
+ * 3. Run with parameters
+ *
+ * @see https://www.jenkins.io/doc/book/pipeline/
+ * =============================================
+ */
+pipeline {
+    // =============================================
+    // Agent Configuration
+    // =============================================
+    // Use Docker container with Playwright pre-installed
+    // This ensures consistent test execution environment
+    agent {
+        docker {
+            image 'mcr.microsoft.com/playwright:v1.40.0-jammy'  // Official Playwright image
+            args '-u root'                                       // Run as root for npm access
+        }
+    }
+
+    // =============================================
+    // Build Parameters
+    // =============================================
+    // These appear in Jenkins UI when running the job
+    parameters {
+        // Which test suite to run
+        choice(
+            name: 'TEST_SUITE',
+            choices: ['all', 'smoke', 'sanity', 'regression', 'api'],
+            description: 'Test suite to execute'
+        )
+        // Target environment
+        choice(
+            name: 'ENVIRONMENT',
+            choices: ['sit', 'fat', 'uat'],
+            description: 'Test environment (SIT, FAT, or UAT)'
+        )
+        // Browser to use
+        choice(
+            name: 'BROWSER',
+            choices: ['chromium', 'firefox', 'webkit'],
+            description: 'Browser for test execution'
+        )
+    }
+
+    // =============================================
+    // Environment Variables
+    // =============================================
+    // Available to all stages
+    environment {
+        TEST_ENV = "${params.ENVIRONMENT}"      // Pass to test framework
+        CI = 'true'                             // Enable CI optimizations
+    }
+
+    // =============================================
+    // Pipeline Stages
+    // =============================================
+    stages {
+        // ------------------------------------
+        // Stage 1: Install Dependencies
+        // ------------------------------------
+        // Install npm packages from package-lock.json
+        stage('Install') {
+            steps {
+                sh 'npm ci'                     // Clean install (faster, deterministic)
+            }
+        }
+
+        // ------------------------------------
+        // Stage 2: Type Check
+        // ------------------------------------
+        // Verify TypeScript compiles without errors
+        stage('Type Check') {
+            steps {
+                sh 'npm run type-check'         // Run tsc --noEmit
+            }
+        }
+
+        // ------------------------------------
+        // Stage 3: Run Tests
+        // ------------------------------------
+        // Execute Playwright tests based on parameters
+        stage('Test') {
+            steps {
+                script {
+                    // Build test command based on parameters
+                    def testCmd = 'npx playwright test'
+                    
+                    // Add test suite filter
+                    if (params.TEST_SUITE == 'smoke') {
+                        testCmd += ' --grep @smoke'    // Only @smoke tagged tests
+                    } else if (params.TEST_SUITE == 'api') {
+                        testCmd += ' tests/api'        // Only API test directory
+                    }
+                    // Add browser project
+                    testCmd += " --project=${params.BROWSER}"
+                    
+                    // Execute tests
+                    sh testCmd
+                }
+            }
+        }
+    }
+
+    // =============================================
+    // Post-Build Actions
+    // =============================================
+    // Always run regardless of build status
+    post {
+        always {
+            // ------------------------------------
+            // Publish HTML Report
+            // ------------------------------------
+            // Makes Playwright HTML report available in Jenkins UI
+            publishHTML(target: [
+                reportName: 'Playwright Report',
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                keepAll: true,                    // Keep for all builds
+                alwaysLinkToLastBuild: true       // Quick link on job page
+            ])
+            
+            // ------------------------------------
+            // Archive Test Artifacts
+            // ------------------------------------
+            // Save screenshots, videos, traces for debugging
+            archiveArtifacts artifacts: 'test-results/**/*', fingerprint: true
+            
+            // ------------------------------------
+            // Publish JUnit Results
+            // ------------------------------------
+            // Integrates with Jenkins test trend graphs
+            junit 'test-results/junit.xml'
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "testCases": [
+    {
+      "name": "Valid admin login",
+      "data": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!",
+        "expectedResult": "success",
+        "expectedMessage": "You logged into a secure area!"
+      },
+      "tags": ["smoke", "critical"]
+    },
+    {
+      "name": "Invalid username login",
+      "data": {
+        "username": "invalid_user",
+        "password": "SuperSecretPassword!",
+        "expectedResult": "failure",
+        "expectedMessage": "Your username is invalid!"
+      },
+      "tags": ["regression"]
+    },
+    {
+      "name": "Invalid password login",
+      "data": {
+        "username": "tomsmith",
+        "password": "wrong_password",
+        "expectedResult": "failure",
+        "expectedMessage": "Your password is invalid!"
+      },
+      "tags": ["regression"]
+    },
+    {
+      "name": "Empty credentials login",
+      "data": {
+        "username": "",
+        "password": "",
+        "expectedResult": "failure",
+        "expectedMessage": "Your username is invalid!"
+      },
+      "tags": ["regression", "edge-case"]
+    },
+    {
+      "name": "Username with whitespace",
+      "data": {
+        "username": "  tomsmith  ",
+        "password": "SuperSecretPassword!",
+        "expectedResult": "failure",
+        "expectedMessage": "Your username is invalid!"
+      },
+      "tags": ["regression", "edge-case"]
+    }
+  ]
+}
