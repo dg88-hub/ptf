@@ -1,1 +1,0 @@
-[22:55:06.306] info: [Get single user] ========== TEST STARTED: Get single user ==========

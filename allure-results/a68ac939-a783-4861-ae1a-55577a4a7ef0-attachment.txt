@@ -1,2 +1,0 @@
-[22:40:15.205] info: [Create home policy] ========== TEST STARTED: Create home policy ==========
-[22:40:15.208] info: [Create home policy] ========== TEST ✓ PASSED: Create home policy ==========

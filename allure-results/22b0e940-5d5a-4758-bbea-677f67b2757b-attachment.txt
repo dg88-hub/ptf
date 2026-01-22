@@ -1,1 +1,0 @@
-[23:04:28.069] info: [Get users list] ========== TEST STARTED: Get users list ==========

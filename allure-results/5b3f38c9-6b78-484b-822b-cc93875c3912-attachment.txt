@@ -1,4 +1,0 @@
-[22:04:58.916] info: [TestDataProvider] Loaded 5 test cases from login-scenarios.json
-[22:04:58.917] info: Loaded 5 test cases from external data
-[22:05:00.167] info: Previous login result: {"success":true,"username":"tomsmith","timestamp":"2026-01-22T03:04:58.643Z"}
-[22:05:00.168] info: Session authenticated: true

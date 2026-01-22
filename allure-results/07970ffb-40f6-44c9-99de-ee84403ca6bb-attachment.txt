@@ -1,1 +1,0 @@
-[22:46:47.279] info: [API Registration] ========== TEST STARTED: API Registration ==========

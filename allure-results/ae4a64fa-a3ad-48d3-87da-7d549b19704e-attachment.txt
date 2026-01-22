@@ -1,6 +1,0 @@
-[20:45:24.442] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
-[20:45:24.452] info: [Create auto policy] Auto Policy Created:
-[20:45:24.452] info: [Create auto policy]   Policy Number: POL-1769046324442-89TMZG
-[20:45:24.466] info: [Create auto policy]   Coverage Limit: $100,000
-[20:45:24.466] info: [Create auto policy]   Annual Premium: $1200
-[20:45:24.466] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

@@ -1,2 +1,0 @@
-[22:26:11.810] info: [TestContext] Cleared all data
-Starting test for User_goulF on 2026-01-21

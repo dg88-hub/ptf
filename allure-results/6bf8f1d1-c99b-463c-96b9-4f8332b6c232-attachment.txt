@@ -1,5 +1,0 @@
-[23:04:50.513] info: [Performance] Collecting navigation timing
-[23:04:50.779] info: [Performance] Collecting navigation timing
-Page Load Time Comparison:
-  - /: 546ms
-  - /login: 168ms

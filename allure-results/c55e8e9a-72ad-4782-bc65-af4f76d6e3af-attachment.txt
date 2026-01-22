@@ -1,6 +1,0 @@
-[22:40:07.082] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
-[22:40:07.101] info: [Create auto policy] Auto Policy Created:
-[22:40:07.102] info: [Create auto policy]   Policy Number: POL-1769053207084-2L2VHS
-[22:40:07.127] info: [Create auto policy]   Coverage Limit: $100,000
-[22:40:07.127] info: [Create auto policy]   Annual Premium: $1200
-[22:40:07.128] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

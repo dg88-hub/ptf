@@ -1,2 +1,0 @@
-[20:45:20.208] info: [Policy lifecycle] ========== TEST STARTED: Policy lifecycle ==========
-[20:45:20.212] info: [Policy lifecycle] ========== TEST ✓ PASSED: Policy lifecycle ==========

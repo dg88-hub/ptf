@@ -1,6 +1,0 @@
-[20:45:16.139] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
-[20:45:16.148] info: [Create auto policy] Auto Policy Created:
-[20:45:16.148] info: [Create auto policy]   Policy Number: POL-1769046316141-EJMD5B
-[20:45:16.167] info: [Create auto policy]   Coverage Limit: $100,000
-[20:45:16.169] info: [Create auto policy]   Annual Premium: $1200
-[20:45:16.169] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

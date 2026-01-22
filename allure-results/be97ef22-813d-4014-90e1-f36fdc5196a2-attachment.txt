@@ -1,2 +1,0 @@
-[22:26:06.681] info: [TestContext] Cleared all data
-Starting test for User_CCyIe on 2026-01-21

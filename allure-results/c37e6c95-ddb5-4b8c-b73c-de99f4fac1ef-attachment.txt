@@ -1,4 +1,0 @@
-[22:02:51.813] info: [TestDataProvider] Loaded 5 test cases from login-scenarios.json
-[22:02:51.813] info: Loaded 5 test cases from external data
-[22:02:54.021] info: Previous login result: undefined
-[22:02:54.022] info: Session authenticated: undefined

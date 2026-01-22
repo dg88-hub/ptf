@@ -1,1 +1,0 @@
-[22:41:47.034] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm

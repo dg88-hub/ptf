@@ -1,3 +1,0 @@
-[23:03:53.195] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
-[23:03:57.593] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/openaccount.htm
-[23:03:59.418] info: Created SAVINGS account: 13899

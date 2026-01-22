@@ -1,7 +1,0 @@
-[23:03:56.819] info: [Claim approval workflow] ========== TEST STARTED: Claim approval workflow ==========
-[23:03:56.820] info: [Claim approval workflow] Step 1: Claim CLM-1769054636819-XO20CG in draft status
-[23:03:56.820] info: [Claim approval workflow] Step 2: Claim submitted
-[23:03:56.820] info: [Claim approval workflow] Step 3: Claim under review
-[23:03:56.821] info: [Claim approval workflow] Step 4: Claim approved for $8500
-[23:03:56.822] info: [Claim approval workflow] Step 5: Claim paid - $8500
-[23:03:56.822] info: [Claim approval workflow] ========== TEST ✓ PASSED: Claim approval workflow ==========

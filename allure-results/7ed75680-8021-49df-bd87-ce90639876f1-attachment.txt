@@ -1,2 +1,0 @@
-[22:55:22.057] info: [Performance] Collecting Web Vitals
-[22:55:22.098] info: [Performance] LCP nullms is within threshold 4000ms

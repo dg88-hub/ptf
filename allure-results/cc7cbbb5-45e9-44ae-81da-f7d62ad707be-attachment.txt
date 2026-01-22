@@ -1,5 +1,0 @@
-[22:36:35.164] info: Setting up GL test environment
-[22:36:35.188] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
-[22:36:51.747] info: GL test environment ready
-[22:36:51.757] info: [Account balance verification] ========== TEST STARTED: Account balance verification ==========
-[22:36:51.761] info: [Account balance verification] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/overview.htm

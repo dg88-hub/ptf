@@ -1,9 +1,0 @@
-[21:54:55.172] info: [LoginPage] Navigating to login page
-[21:54:55.173] info: [LoginPage] Navigating to: /login
-[21:54:56.364] info: [Login with invalid username] ========== TEST STARTED: Login with invalid username ==========
-[21:54:56.364] info: [Login with invalid username] [LoginPage] Logging in as: invalid_user
-[21:54:56.365] info: [Login with invalid username] Step 1: Entering username: invalid_user
-[21:54:56.435] info: [Login with invalid username] Step 2: Entering password: ****
-[21:54:56.485] info: [Login with invalid username] Step 3: Clicking login button
-[21:54:57.430] info: [Login with invalid username] [LoginPage] Verifying login failure
-[21:54:57.501] info: [Login with invalid username] ========== TEST ✓ PASSED: Login with invalid username ==========

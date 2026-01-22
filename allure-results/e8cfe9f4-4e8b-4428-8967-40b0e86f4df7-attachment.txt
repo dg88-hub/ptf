@@ -1,1 +1,0 @@
-[22:51:23.340] info: [Create user] ========== TEST STARTED: Create user ==========

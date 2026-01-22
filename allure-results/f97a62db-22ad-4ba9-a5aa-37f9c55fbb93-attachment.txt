@@ -1,6 +1,0 @@
-[22:51:21.870] info: [A11y] Running accessibility check
-[22:51:24.271] warn: [A11y] Found 3 accessibility violations
-[22:51:24.272] warn:   - [SERIOUS] color-contrast: Elements must meet minimum color contrast ratio thresholds (44 elements)
-[22:51:24.281] warn:   - [MODERATE] landmark-one-main: Document should have one main landmark (1 elements)
-[22:51:24.281] warn:   - [MODERATE] region: All page content should be contained by landmarks (5 elements)
-Found 1 color contrast issues

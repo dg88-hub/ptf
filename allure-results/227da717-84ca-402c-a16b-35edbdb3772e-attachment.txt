@@ -1,6 +1,0 @@
-[22:40:07.213] info: [Submit claim] ========== TEST STARTED: Submit claim ==========
-[22:40:07.217] info: [Submit claim] Claim Submitted:
-[22:40:07.217] info: [Submit claim]   Claim Number: CLM-1769053207213-S6FT6L
-[22:40:07.217] info: [Submit claim]   Type: collision
-[22:40:07.217] info: [Submit claim]   Amount Claimed: $5,000
-[22:40:07.217] info: [Submit claim] ========== TEST ✓ PASSED: Submit claim ==========

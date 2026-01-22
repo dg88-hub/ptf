@@ -1,8 +1,0 @@
-[22:05:18.313] info: [TestDataProvider] Loaded 5 test cases from login-scenarios.json
-[22:05:18.315] info: Loaded 5 test cases from external data
-[22:05:19.857] info: [Login with config credentials] ========== TEST STARTED: Login with config credentials ==========
-[22:05:19.858] info: [Login with config credentials] [LoginPage] Logging in as: tomsmith
-[22:05:19.859] info: [Login with config credentials] Step 1: Entering username: tomsmith
-[22:05:19.937] info: [Login with config credentials] Step 2: Entering password: ****
-[22:05:19.983] info: [Login with config credentials] Step 3: Clicking login button
-[22:05:21.614] info: [Login with config credentials] ========== TEST ✓ PASSED: Login with config credentials ==========

@@ -1,1 +1,0 @@
-[23:04:34.507] info: [Get non-existent user] ========== TEST STARTED: Get non-existent user ==========

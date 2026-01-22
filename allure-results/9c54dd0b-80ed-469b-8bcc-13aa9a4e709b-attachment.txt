@@ -1,7 +1,0 @@
-[23:01:31.784] info: [Underwriting factors] ========== TEST STARTED: Underwriting factors ==========
-[23:01:31.785] info: [Underwriting factors] Underwriting Factors:
-[23:01:31.785] info: [Underwriting factors] Positive:
-[23:01:31.785] info: [Underwriting factors]   + Good Credit: 50 points
-[23:01:31.785] info: [Underwriting factors] Negative:
-[23:01:31.785] info: [Underwriting factors]   - Driving Incidents: -25 points
-[23:01:31.785] info: [Underwriting factors] ========== TEST ✓ PASSED: Underwriting factors ==========

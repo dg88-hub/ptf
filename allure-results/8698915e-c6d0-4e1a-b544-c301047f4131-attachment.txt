@@ -1,1 +1,0 @@
-[22:51:30.839] info: [Update user (PATCH)] ========== TEST STARTED: Update user (PATCH) ==========

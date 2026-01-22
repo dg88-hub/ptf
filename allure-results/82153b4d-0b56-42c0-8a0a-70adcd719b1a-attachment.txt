@@ -1,2 +1,0 @@
-[22:05:12.244] info: [Verify created user] ========== TEST STARTED: Verify created user ==========
-[22:05:12.246] info: [Verify created user] Retrieved from context - ID: undefined, Name: undefined

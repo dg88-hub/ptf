@@ -1,2 +1,0 @@
-[22:55:23.856] info: [Performance] Collecting Web Vitals
-[22:55:23.866] info: [Performance] CLS null is within threshold 0.25

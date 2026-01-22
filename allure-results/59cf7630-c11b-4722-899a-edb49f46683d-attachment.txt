@@ -1,1 +1,0 @@
-[22:01:40.117] info: [Create user and capture output] ========== TEST STARTED: Create user and capture output ==========

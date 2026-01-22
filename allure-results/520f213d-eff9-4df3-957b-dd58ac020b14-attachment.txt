@@ -1,5 +1,0 @@
-[22:42:00.711] info: Setting up GL test environment
-[22:42:00.712] info: [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
-[22:42:04.760] info: GL test environment ready
-[22:42:04.761] info: [Create new savings account] ========== TEST STARTED: Create new savings account ==========
-[22:42:04.761] info: [Create new savings account] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/openaccount.htm

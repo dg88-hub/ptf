@@ -1,1 +1,0 @@
-[22:55:08.853] info: [Delete user] ========== TEST STARTED: Delete user ==========

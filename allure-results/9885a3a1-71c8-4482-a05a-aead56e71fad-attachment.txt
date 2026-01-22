@@ -1,9 +1,0 @@
-[22:40:03.630] info: [Available discounts] ========== TEST STARTED: Available discounts ==========
-[22:40:03.632] info: [Available discounts] Auto Discounts:
-[22:40:03.633] info: [Available discounts]   - Multi-Policy: 10%
-[22:40:03.633] info: [Available discounts]   - Paperless: 3%
-[22:40:03.633] info: [Available discounts]   - Paid in Full: 5%
-[22:40:03.633] info: [Available discounts]   - Good Driver: 15%
-[22:40:03.633] info: [Available discounts]   - Low Mileage: 10%
-[22:40:03.633] info: [Available discounts]   - Anti-Theft Device: 5%
-[22:40:03.633] info: [Available discounts] ========== TEST ✓ PASSED: Available discounts ==========

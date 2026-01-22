@@ -1,2 +1,0 @@
-[22:40:10.294] info: [Customer field validation] ========== TEST STARTED: Customer field validation ==========
-[22:40:10.305] info: [Customer field validation] ========== TEST ✓ PASSED: Customer field validation ==========

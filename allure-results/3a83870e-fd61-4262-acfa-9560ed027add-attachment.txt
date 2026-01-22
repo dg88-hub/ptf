@@ -1,6 +1,0 @@
-[23:01:30.592] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
-[23:01:30.598] info: [Create auto policy] Auto Policy Created:
-[23:01:30.598] info: [Create auto policy]   Policy Number: POL-1769054490593-LY1UEJ
-[23:01:30.609] info: [Create auto policy]   Coverage Limit: $100,000
-[23:01:30.609] info: [Create auto policy]   Annual Premium: $1200
-[23:01:30.609] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========

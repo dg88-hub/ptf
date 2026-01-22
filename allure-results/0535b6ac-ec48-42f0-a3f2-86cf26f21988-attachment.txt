@@ -1,1 +1,0 @@
-[22:55:08.709] info: [Update user (PUT)] ========== TEST STARTED: Update user (PUT) ==========

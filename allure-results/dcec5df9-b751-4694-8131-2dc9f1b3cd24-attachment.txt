@@ -1,6 +1,0 @@
-[22:02:02.750] info: [TestDataProvider] Loaded 5 test cases from login-scenarios.json
-[22:02:02.752] info: Loaded 5 test cases from external data
-[22:02:04.096] info: [LoginPage] Logging in as: tomsmith
-[22:02:04.097] info: Step 1: Entering username: tomsmith
-[22:02:04.330] info: Step 2: Entering password: ****
-[22:02:04.467] info: Step 3: Clicking login button

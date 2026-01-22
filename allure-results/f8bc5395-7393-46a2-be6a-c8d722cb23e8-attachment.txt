@@ -1,6 +1,0 @@
-[22:51:50.729] info: [Performance] Collecting Web Vitals
-Core Web Vitals:
-  - LCP: N/Ams
-  - FCP: 1200ms
-  - CLS: N/A
-  - TTFB: 39ms

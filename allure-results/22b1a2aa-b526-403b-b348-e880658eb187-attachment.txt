@@ -1,3 +1,0 @@
-[22:55:43.089] info: [AP-GL integration test] ========== TEST STARTED: AP-GL integration test ==========
-[22:55:43.091] info: [AP-GL integration test] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/index.htm
-[22:55:46.745] info: [AP-GL integration test] [ParaBankBasePage] Navigating to: https://parabank.parasoft.com/parabank/billpay.htm

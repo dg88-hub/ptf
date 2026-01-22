@@ -1,7 +1,0 @@
-[22:40:10.419] info: [Claim approval workflow] ========== TEST STARTED: Claim approval workflow ==========
-[22:40:10.421] info: [Claim approval workflow] Step 1: Claim CLM-1769053210420-9PU2IQ in draft status
-[22:40:10.422] info: [Claim approval workflow] Step 2: Claim submitted
-[22:40:10.423] info: [Claim approval workflow] Step 3: Claim under review
-[22:40:10.425] info: [Claim approval workflow] Step 4: Claim approved for $8500
-[22:40:10.426] info: [Claim approval workflow] Step 5: Claim paid - $8500
-[22:40:10.426] info: [Claim approval workflow] ========== TEST ✓ PASSED: Claim approval workflow ==========

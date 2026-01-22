@@ -1,2 +1,0 @@
-[22:05:12.581] info: All captured userFlow data:
-[22:05:12.582] info: Found 0 user IDs across all namespaces

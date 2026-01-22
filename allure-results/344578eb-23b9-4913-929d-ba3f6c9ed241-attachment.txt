@@ -1,1 +1,0 @@
-[22:59:16.677] info: [Response time check] ========== TEST STARTED: Response time check ==========

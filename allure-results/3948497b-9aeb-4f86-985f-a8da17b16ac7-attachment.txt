@@ -1,1 +1,0 @@
-[23:00:03.880] info: [SauceDemoBasePage] Navigating to: https://www.saucedemo.com

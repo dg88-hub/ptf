@@ -1,6 +1,0 @@
-[22:40:18.216] info: [Create auto policy] ========== TEST STARTED: Create auto policy ==========
-[22:40:18.227] info: [Create auto policy] Auto Policy Created:
-[22:40:18.227] info: [Create auto policy]   Policy Number: POL-1769053218217-RCMJT9
-[22:40:18.245] info: [Create auto policy]   Coverage Limit: $100,000
-[22:40:18.245] info: [Create auto policy]   Annual Premium: $1200
-[22:40:18.245] info: [Create auto policy] ========== TEST ✓ PASSED: Create auto policy ==========
