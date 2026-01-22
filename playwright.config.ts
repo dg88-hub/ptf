@@ -114,6 +114,25 @@ export default defineConfig({
    */
   expect: {
     timeout: 10000,
+
+    /**
+     * Visual regression testing configuration
+     * @see https://playwright.dev/docs/test-snapshots
+     */
+    toHaveScreenshot: {
+      // Maximum pixel difference threshold (0-1, where 0 = no difference)
+      maxDiffPixelRatio: 0.01,
+      // Maximum number of different pixels
+      maxDiffPixels: 100,
+      // Animation handling
+      animations: 'disabled',
+      // CSS animations and transitions
+      caret: 'hide',
+      // Scale for retina displays
+      scale: 'css',
+      // Threshold for pixel color difference (0-1)
+      threshold: 0.2,
+    },
   },
 
   /**

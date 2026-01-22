@@ -21,6 +21,14 @@
 export { DataGenerator, dataGenerator } from './DataGenerator';
 export { AddressFactory, OrderFactory, UserFactory } from './TestDataFactory';
 
+// API Testing
+export { ApiClient } from './ApiClient';
+export type { ApiRequestOptions, ApiResponse } from './ApiClient';
+
+// Notifications
+export { NotificationService } from './NotificationService';
+export type { NotificationPayload } from './NotificationService';
+
 // Domain-Specific Factories
 export {
   ChartAccountFactory,
