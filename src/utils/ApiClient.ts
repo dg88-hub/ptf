@@ -191,10 +191,17 @@ export class ApiClient {
           maxAttempts: retries + 1,
         });
 
+        // Prepare headers (avoid setting Content-Type for GET/DELETE unless necessary)
+        const headers = { ...requestOptions.headers };
+        if ((method === 'GET' || method === 'DELETE') && !requestOptions.data) {
+          // Some APIs (like reqres.in or underlying WAFs) reject GET requests with Content-Type
+          delete headers['Content-Type'];
+        }
+
         // Make the request
         const response = await this.context.fetch(url, {
           method,
-          headers: requestOptions.headers,
+          headers: headers,
           data: requestOptions.data,
           params: requestOptions.params as Record<string, string>,
           timeout: requestOptions.timeout,

@@ -208,6 +208,17 @@ export default defineConfig({
   // globalSetup: require.resolve('./src/config/global-setup.ts'),
 
   /**
+   * Run the Mock Server before tests
+   */
+  webServer: {
+    command: 'npx ts-node src/mocks/mock-server.ts',
+    port: 9000,
+    reuseExistingServer: !process.env.CI,
+    stdout: 'pipe',
+    stderr: 'pipe',
+  },
+
+  /**
    * Global teardown script
    * Runs once after all tests
    */
