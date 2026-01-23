@@ -154,6 +154,20 @@
     "timedout",
     "testpassword",
     "sftppassword",
-    "imap"
+    "imap",
+    "ptest",
+    "ppage",
+    "ploc",
+    "pexpect",
+    "Camtasia",
+    "allure",
+    "Vitest",
+    "TypeDoc",
+    "MSW",
+    "mswjs",
+    "DataDog",
+    "Splunk",
+    "Zod",
+    "addressparser"
   ]
 }

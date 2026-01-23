@@ -29,6 +29,10 @@ export type { ApiRequestOptions, ApiResponse } from './ApiClient';
 export { NotificationService } from './NotificationService';
 export type { NotificationPayload } from './NotificationService';
 
+// File Operations
+export { FileHandler } from './FileHandler';
+export type { FileComparisonResult, FileDownloadOptions, FileUploadOptions } from './FileHandler';
+
 // Domain-Specific Factories
 export {
   ChartAccountFactory,
